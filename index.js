@@ -24,10 +24,18 @@ app.post('/api/form', (req, res) =>
                             <h4>Message:</h4>
                             <p>${req.body.message}</p>`
         let transporter = nodemailer.createTransport({
+            pool: true,
             service: 'gmail',
             auth: {
+                type: 'OAuth2',
                 user:  process.env.REACT_APP_USERNAME,
-                pass: process.env.REACT_APP_PASSWORD,
+                accessToken: process.env.REACT_APP_ACCESSTOKEN,
+                expires: 1593109815926 + 60000,
+                refreshToken: process.env.REACT_APP_REFRESHTOKEN,
+                clientId: process.env.REACT_APP_CLIENT_ID,
+                clientSecret: process.env.REACT_APP_CLIENT_SECRET,
+                accessUrl: process.env.REACT_APP_ACCESS_URL,
+            
             },
         })
 
