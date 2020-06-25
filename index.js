@@ -38,7 +38,7 @@ app.post('/api/form', (req, res) =>
             
             },
         })
-
+        //fixed!
         let mailOptions = {
             from: process.env.REACT_APP_USERNAME,
             to: process.env.REACT_APP_USERNAME,
