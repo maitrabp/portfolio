@@ -28,21 +28,21 @@ app.post('/api/form', (req, res) =>
             service: 'gmail',
             auth: {
                 type: 'OAuth2',
-                user:  process.env.REACT_APP_USERNAME,
-                accessToken: process.env.REACT_APP_ACCESSTOKEN,
+                user:  'maitraofficial@gmail.com',
+                accessToken: 'ya29.a0AfH6SMDy95iKJIwGxIyyWo1kW5qrtHNkU3enjBj_iDLlUPvwXgzoIFvw0C9C0_XbVBYjmFGRDgp7vu57zvugDcwj4KU7YuoIg7tAe3tVIUSlhs8hvRBq31YFjEDfnFuOOOkgcfBDe-JC6ZgR71PHk7nx9yIwG2AqlOY',
                 expires: 1593109815926 + 60000,
-                refreshToken: process.env.REACT_APP_REFRESHTOKEN,
-                clientId: process.env.REACT_APP_CLIENT_ID,
-                clientSecret: process.env.REACT_APP_CLIENT_SECRET,
-                accessUrl: process.env.REACT_APP_ACCESS_URL,
+                refreshToken: '1//04zveV3Ghpk7XCgYIARAAGAQSNwF-L9IrBMlYFnhlhgv3VqPnj4Kc6CgTJ6zPbskSUQrJtBbwUdyUWPhzqd4SbSoSA3kdgL1CkpE',
+                clientId: '1050770169701-0t7gbqqrfku9u2dcubpj8vqbm7ual8bf.apps.googleusercontent.com',
+                clientSecret: 'FMM5vBDyg3uR8DfqgPHD4SvW',
+                accessUrl: 'https://oauth2.googleapis.com/token',
             
             },
         })
 
         let mailOptions = {
-            from: process.env.REACT_APP_USERNAME,
-            to: process.env.REACT_APP_USERNAME,
-            replyTo: process.env.REACT_APP_USERNAME,
+            from: 'maitraofficial@gmail.com',
+            to: 'maitraofficial@gmail.com',
+            replyTo: 'maitraofficial@gmail.com',
             subject: 'Portfolio Contact Alert',
             text: req.body.message,
             html: htmlEmail
