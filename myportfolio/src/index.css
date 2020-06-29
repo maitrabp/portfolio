@@ -532,7 +532,7 @@ textarea {
   }
 
 }
-/* Height less than 700px PLUS (WIDTH ----> No greater than 2400px, no less than 993px) */
+/* Height less than 700px PLUS (WIDTH ----> No greater than 2400px, no less than 993 px) */
 @media (max-height: 700px) and (max-width:2400px) and (min-width:993px) {
   .homeText {
     font-size: 90px;
@@ -548,6 +548,7 @@ textarea {
     font-family: 'Quicksand', sans-serif;
     padding: 1px;
   }
+  
   #bigger {
     font-size: 20px;
   }
