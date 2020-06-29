@@ -465,14 +465,14 @@ textarea {
   }
   [type="submit"]:hover { background:#ff375f; color: white; border: 2px solid white;}
 }
-/***************************************************************************1500 BELOW **********************************************************************/
-/* Height less than 900px PLUS (WIDTH ----> No greater than 2400px, no less than 1000px) */
-@media (max-height: 900px) and (max-width:2400px) and (min-width:1000px) {
+
+/* Height less than 900px PLUS (WIDTH ----> No greater than 2400px, no less than 993px) */
+@media (max-height: 900px) and (max-width:2400px) and (min-width:993px) {
   .homeText {
-    font-size: 100px;
+    font-size: 90px;
   }
   .subText {
-    font-size: 45px;
+    font-size: 40px;
   }
   .mainTitle{
     margin: 0 auto;
@@ -532,10 +532,95 @@ textarea {
   }
 
 }
+/* Height less than 700px PLUS (WIDTH ----> No greater than 2400px, no less than 993px) */
+@media (max-height: 700px) and (max-width:2400px) and (min-width:993px) {
+  .homeText {
+    font-size: 90px;
+  }
+  .subText {
+    font-size: 40px;
+  }
+  .mainTitle{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 30px;
+    color: #ff375f;
+    font-family: 'Quicksand', sans-serif;
+    padding: 1px;
+  }
+  #bigger {
+    font-size: 20px;
+  }
+  .componentSection {
+    padding: 5px;
+    margin: 0 auto;
+    font-size: 14px;
+    color: black;
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+    font-family: 'Quicksand', sans-serif;
+    background-color: white;
+  }
+  .card {
+    width: 22rem;
+    display: inline-block;
+    height: 28rem;
+    margin: 0 auto; 
+  }
+  .card-title {
+    font-size: 14px;
+  }
+  .card:hover {
+    box-shadow: 4px 9px 19px 1px rgba(0,0,0,0.253) !important;
+  }
+  .card-body{
+    font-size: 0.70rem;
+    padding: 2rem 0 !important;
+  }
+  
+  .innerSliderContainer {
+    width: 90%;
+    display: inline-block;
+    margin: 1rem 0;
+  }
+  .card-img-top {
+    width: 100%;
+    height: 13vw;
+    object-fit: cover;
+    transform: scale(1);
+    transition: transform 0.5s ease;
+  }
+  .projbutton{
+    border: 2px solid #ff375f;
+    color: #ff375f !important;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    cursor:pointer;
+    background: transparent;
+    text-align: center;
+    border-radius: 4px;
+    transition: all 0.3s;
+    padding: 3px;
+  }
+  .githubPlug {
+    margin-top: 15px;
+    font-family: 'Quicksand', sans-serif;
+  }
+  .overflow{
+    overflow: hidden;
+  }
+  .card-img-top:hover {
+    transform: scale(1.8);
+  }
+
+}
 /***************************************************************************1500 BELOW **********************************************************************/
 @media screen and (max-width: 1500px) {
   .homeText {
-    font-size: 120px;
+    font-size: 90px;
+  }
+  .subText {
+    font-size: 40px;
   }
   
 }
