@@ -6,6 +6,7 @@ import About from './About';
 import Projects from './Projects';
 import "bootstrap/dist/css/bootstrap.css";
 import FixedNav from './FixedNav';
+import Copyright from './Copyright'
 
 const styles = {
   fontFamily: "'Quicksand', sans-serif",
@@ -26,6 +27,8 @@ function App() {
         <About/>
         <Projects/>
         <Contact/>
+        <Copyright/>
+
     </div>
   );
 }
