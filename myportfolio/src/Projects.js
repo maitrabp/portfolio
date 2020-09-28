@@ -82,7 +82,7 @@ class Projects extends React.Component {
               <Project
                 projImg="ecommerce.jpg"
                 demo={true}
-                demolink="https://m18e-commerce.000webhostapp.com/ecommerce"
+                demolink="https://mp-creates-ecommerce.herokuapp.com/login.php"
                 codelink="https://github.com/maitrabp/E-commerce"
                 projName="Ecommerce"
                 projDesc="Here I've made an ecommerce website from scratch using HTML, CSS, Javascript and Server-Side PHP. It offers features like login authentication, add/remove items to cart (CRUD), adding/removing items for sale, order confirmation, and checkout."
@@ -90,15 +90,15 @@ class Projects extends React.Component {
               <Project
                 projImg="bankacccount.jpg"
                 demo={true}
-                demolink="https://m18e-commerce.000webhostapp.com/bankaccount"
-                codelink="https://github.com/maitrabp/BankAccountWebsite"
+                demolink="https://mp-creates-bankmanagementapp.herokuapp.com/login.php"
+                codelink="https://github.com/maitrabp/BankAccountWebsite-1"
                 projName="Bank Account Dashboard"
                 projDesc="Here I've made a bank account management website from scratch using HTML, CSS, JS, and Server-Side PHP. It offers features like login authentication, deposit, withdraw, loan application, credit card application, and a universal transaction log."
               ></Project>
               <Project
                 projImg="presentationregistration.jpg"
                 demo={true}
-                demolink="https://m18e-commerce.000webhostapp.com/p_registration/"
+                demolink="https://mp-creates-umdregistrationpage.herokuapp.com/"
                 codelink="https://github.com/maitrabp/UMD_presentation_registration"
                 projName="Presentation Room Registration"
                 projDesc="Here I've made a presentation room registration application specifically intended for University of Michigan, Dearborn. It was made using simple HTML, CSS, Jquery and Server-Side PHP. One is able to lock their slot for a specific time offered, and view all reserved slots in the log page. "
@@ -107,7 +107,7 @@ class Projects extends React.Component {
               <Project
                 projImg="fifteenpuzzle.jpg"
                 demo={true}
-                demolink="https://m18e-commerce.000webhostapp.com/fifteenpuzzlegame/"
+                demolink="https://maitrabp.github.io/The-Fifteen-Puzzle/"
                 codelink="https://github.com/maitrabp/The-Fifteen-Puzzle"
                 projName="Fifteen Puzzle"
                 projDesc="Here I've made a fifteen puzzle game using HTML, CSS, and Javascript (w/ Jquery). Let's see if you could solve this. Try to give it a shot using the demo link down below."
