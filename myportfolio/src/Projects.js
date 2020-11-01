@@ -64,7 +64,7 @@ class Projects extends React.Component {
           <div className="innerSliderContainer">
             <Slider {...settings}>
               <Project
-                projImg="surveillanceCAM.png"
+                projImg="surveillanceCAM.PNG"
                 demo={true}
                 demolink="https://maitrabp.github.io/Surveillance_Camera_App/"
                 codelink="https://github.com/maitrabp/Surveillance_Camera_App"
