@@ -28,7 +28,7 @@ body, html {
     margin: 0 auto;
     text-align: center;
     font-size: 50px;
-    color: #ff375f;
+    color: #3e9acc;
     font-family: 'Quicksand', sans-serif;
     padding: 5px;
 }
@@ -67,7 +67,7 @@ body, html {
 
 #highlighted
 {
-  color: #ff375f;
+  color: #3e9acc;
   font-weight: bold;
 }
 #bigger {
@@ -99,7 +99,7 @@ body, html {
   font-size: 60px;
 }
 #redText {
-  color: #ff375f;
+  color: #3e9acc;
 }
 .navItemButton {
   color: rgb(107, 218, 255);
@@ -129,7 +129,7 @@ body, html {
 .formContainer {
   padding-top: 3rem;
   padding-bottom: 2rem;
-  border-top: 10px solid #ff375f;
+  border-top: 10px solid #3e9acc;
   max-width:960px; margin:0 auto; 
 }
 .contactButtons {
@@ -149,7 +149,7 @@ body, html {
   border: none;
 }
 .fontAwesomeButton:hover{
-  color: #ff375f;
+  color: #3e9acc;
   cursor: pointer;
   text-decoration: none;
 }
@@ -170,7 +170,7 @@ body, html {
   outline:0;
 }
 
-.feedback-input:focus { border:2px solid #ff375f; }
+.feedback-input:focus { border:2px solid #3e9acc; }
 .feedback-input::placeholder { color:white; }
 textarea {
   height: 150px;
@@ -193,7 +193,7 @@ textarea {
   margin-top:-4px;
   font-weight:700;
 }
-[type="submit"]:hover { background:#ff375f; color: white; border: 2px solid #ff375f;}
+[type="submit"]:hover { background:#3e9acc; color: white; border: 2px solid #3e9acc;}
 
 /*PROJECTS*/
 #Projects{
@@ -215,16 +215,16 @@ textarea {
   font-family: 'Quicksand', sans-serif;
 }
 .githubPlug a {
-  color: #ff375f;
+  color: #3e9acc;
 }
 .githubPlug a:hover {
   font-weight: bold;
   text-decoration: none;
-  color: #ff375f;
+  color: #3e9acc;
 }
 .projbutton{
-  border: 2px solid #ff375f;
-  color: #ff375f !important;
+  border: 2px solid #3e9acc;
+  color: #3e9acc !important;
   font-family: 'Quicksand', sans-serif;
   font-size: 24px;
   cursor:pointer;
@@ -236,11 +236,11 @@ textarea {
   padding: 5px;
 }
 .projbutton:hover{
-  background:#ff375f; color: white !important; border: 2px solid #ff375f;
+  background:#3e9acc; color: white !important; border: 2px solid #3e9acc;
   text-decoration: none;
 }
 .projbutton:focus{
-  background:#ff375f; color: white !important; border: 2px solid #ff375f;
+  background:#3e9acc; color: white !important; border: 2px solid #3e9acc;
   text-decoration: none;
 }
 .card {
@@ -285,10 +285,10 @@ textarea {
   padding-left: 2rem;
 }
 .navItem:hover{
-  color :#ff375f !important
+  color :#3e9acc !important
 }
 .navItem:focus{
-  color :#ff375f !important;
+  color :#3e9acc !important;
 }
 /* ************************************************************************* I-PAD **********************************************************************/
 @media screen and (max-width: 992px) {
@@ -311,7 +311,7 @@ textarea {
     margin: 0 auto;
     text-align: center;
     font-size: 35px;
-    color: #ff375f;
+    color: #3e9acc;
     font-family: 'Quicksand', sans-serif;
     padding: 3px;
   }
@@ -367,8 +367,8 @@ textarea {
     font-size: 18px;
   }
   .projbutton{
-    border: 2px solid #ff375f;
-    color: #ff375f !important;
+    border: 2px solid #3e9acc;
+    color: #3e9acc !important;
     font-family: 'Quicksand', sans-serif;
     font-size: 18px;
     cursor:pointer;
@@ -399,7 +399,7 @@ textarea {
   .formContainer {
     padding-top: 2rem;
     padding-bottom: 1rem;
-    border-top: 7px solid #ff375f;
+    border-top: 7px solid #3e9acc;
     max-width:800px; margin:0 auto; 
   }
   .contactButtons {
@@ -419,7 +419,7 @@ textarea {
     border: none;
   }
   .fontAwesomeButton:hover{
-    color: #ff375f;
+    color: #3e9acc;
     cursor: pointer;
     text-decoration: none;
   }
@@ -440,7 +440,7 @@ textarea {
     outline:0;
   }
   
-  .feedback-input:focus { border:2px solid #ff375f; }
+  .feedback-input:focus { border:2px solid #3e9acc; }
   .feedback-input::placeholder { color:white; }
   textarea {
     height: 100px;
@@ -452,9 +452,9 @@ textarea {
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     width: 90%;
     border-radius: 3px;
-    background: #ff375f;
+    background: #3e9acc;
     color: white;
-    border: 2px solid #ff375f;
+    border: 2px solid #3e9acc;
     cursor:pointer;
     font-size:18px;
     padding-top:6px;
@@ -463,7 +463,7 @@ textarea {
     margin-top:-3px;
     font-weight:500;
   }
-  [type="submit"]:hover { background:#ff375f; color: white; border: 2px solid white;}
+  [type="submit"]:hover { background:#3e9acc; color: white; border: 2px solid white;}
 }
 
 /* ************************************************************************* I-PAD **********************************************************************/
@@ -487,7 +487,7 @@ textarea {
     margin: 0 auto;
     text-align: center;
     font-size: 25px;
-    color: #ff375f;
+    color: #3e9acc;
     font-family: 'Quicksand', sans-serif;
     padding: 2px;
   }
@@ -543,8 +543,8 @@ textarea {
     font-size: 12px;
   }
   .projbutton{
-    border: 1px solid #ff375f;
-    color: #ff375f !important;
+    border: 1px solid #3e9acc;
+    color: #3e9acc !important;
     font-family: 'Quicksand', sans-serif;
     font-size: 12px;
     cursor:pointer;
@@ -576,7 +576,7 @@ textarea {
   .formContainer {
     padding-top: 2rem;
     padding-bottom: 1rem;
-    border-top: 7px solid #ff375f;
+    border-top: 7px solid #3e9acc;
     max-width:800px; margin:0 auto; 
   }
   .contactButtons {
@@ -596,7 +596,7 @@ textarea {
     border: none;
   }
   .fontAwesomeButton:hover{
-    color: #ff375f;
+    color: #3e9acc;
     cursor: pointer;
     text-decoration: none;
   }
@@ -617,7 +617,7 @@ textarea {
     outline:0;
   }
   
-  .feedback-input:focus { border:2px solid #ff375f; }
+  .feedback-input:focus { border:2px solid #3e9acc; }
   .feedback-input::placeholder { color:white; }
   textarea {
     height: 100px;
@@ -629,9 +629,9 @@ textarea {
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     width: 90%;
     border-radius: 3px;
-    background: #ff375f;
+    background: #3e9acc;
     color: white;
-    border: 2px solid #ff375f;
+    border: 2px solid #3e9acc;
     cursor:pointer;
     font-size:18px;
     padding-top:6px;
@@ -640,7 +640,7 @@ textarea {
     margin-top:-3px;
     font-weight:500;
   }
-  [type="submit"]:hover { background:#ff375f; color: white; border: 2px solid white;}
+  [type="submit"]:hover { background:#3e9acc; color: white; border: 2px solid white;}
 }
 
 
@@ -657,7 +657,7 @@ textarea {
     margin: 0 auto;
     text-align: center;
     font-size: 35px;
-    color: #ff375f;
+    color: #3e9acc;
     font-family: 'Quicksand', sans-serif;
     padding: 1px;
   }
@@ -723,7 +723,7 @@ textarea {
     margin: 0 auto;
     text-align: center;
     font-size: 30px;
-    color: #ff375f;
+    color: #3e9acc;
     font-family: 'Quicksand', sans-serif;
     padding: 1px;
   }
@@ -771,8 +771,8 @@ textarea {
     transition: transform 0.5s ease;
   }
   .projbutton{
-    border: 2px solid #ff375f;
-    color: #ff375f !important;
+    border: 2px solid #3e9acc;
+    color: #3e9acc !important;
     font-family: 'Quicksand', sans-serif;
     font-size: 16px;
     cursor:pointer;
@@ -806,7 +806,7 @@ textarea {
     margin: 0 auto;
     text-align: center;
     font-size: 25px;
-    color: #ff375f;
+    color: #3e9acc;
     font-family: 'Quicksand', sans-serif;
     padding: 1px;
   }
@@ -854,8 +854,8 @@ textarea {
     transition: transform 0.5s ease;
   }
   .projbutton{
-    border: 2px solid #ff375f;
-    color: #ff375f !important;
+    border: 2px solid #3e9acc;
+    color: #3e9acc !important;
     font-family: 'Quicksand', sans-serif;
     font-size: 14px;
     cursor:pointer;
@@ -908,7 +908,7 @@ textarea {
     margin: 0 auto;
     text-align: center;
     font-size: 25px;
-    color: #ff375f;
+    color: #3e9acc;
     font-family: 'Quicksand', sans-serif;
     padding: 2px;
   }
@@ -964,8 +964,8 @@ textarea {
     font-size: 18px;
   }
   .projbutton{
-    border: 2px solid #ff375f;
-    color: #ff375f !important;
+    border: 2px solid #3e9acc;
+    color: #3e9acc !important;
     font-family: 'Quicksand', sans-serif;
     font-size: 18px;
     cursor:pointer;
@@ -996,7 +996,7 @@ textarea {
   .formContainer {
     padding-top: 2rem;
     padding-bottom: 1rem;
-    border-top: 6px solid #ff375f;
+    border-top: 6px solid #3e9acc;
     max-width:580px; margin:0 auto; 
   }
   .contactButtons {
@@ -1016,7 +1016,7 @@ textarea {
     border: none;
   }
   .fontAwesomeButton:hover{
-    color: #ff375f;
+    color: #3e9acc;
     cursor: pointer;
     text-decoration: none;
   }
@@ -1037,7 +1037,7 @@ textarea {
     outline:0;
   }
   
-  .feedback-input:focus { border:2px solid #ff375f; }
+  .feedback-input:focus { border:2px solid #3e9acc; }
   .feedback-input::placeholder { color:white; }
   textarea {
     height: 100px;
@@ -1049,9 +1049,9 @@ textarea {
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     width: 90%;
     border-radius: 3px;
-    background: #ff375f;
+    background: #3e9acc;
     color: white;
-    border: 2px solid #ff375f;
+    border: 2px solid #3e9acc;
     cursor:pointer;
     font-size:18px;
     padding-top:6px;
@@ -1060,6 +1060,6 @@ textarea {
     margin-top:-3px;
     font-weight:500;
   }
-  [type="submit"]:hover { background:#ff375f; color: white; border: 2px solid white;}
+  [type="submit"]:hover { background:#3e9acc; color: white; border: 2px solid white;}
 }
 
