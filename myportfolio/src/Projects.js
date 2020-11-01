@@ -64,6 +64,14 @@ class Projects extends React.Component {
           <div className="innerSliderContainer">
             <Slider {...settings}>
               <Project
+                projImg="surveillanceCAM.png"
+                demo={true}
+                demolink="https://maitrabp.github.io/Surveillance_Camera_App/"
+                codelink="https://github.com/maitrabp/Surveillance_Camera_App"
+                projName="Surveillance Camera (TensorFlow)"
+                projDesc="A Surveillance Camera which records video feeds on motion detection. To run this app, camera must be enabled on your laptop. I used TensorFlow's preprocessed ML model for object Detection within the video frame. The app is deployed on Github Pages."
+              ></Project>
+              <Project
                 projImg="slack.jpg"
                 demo={true}
                 demolink="https://slack-clone-96a9b.web.app/"
