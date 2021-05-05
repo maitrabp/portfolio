@@ -63,33 +63,43 @@ class Contact extends React.Component {
     render() {
         
         return (
-            <div id="Contact">
-              <div className="overlay">
-                  <div className = "mainTitle" style={{color: "white"}}>
-                    CONTACT ME
-                  </div>
-                  <div className = "formContainer">
-                      <div style={this.msgStyle}>{this.state.msgStatus}</div>
-                      <form onSubmit={this.submitForm}>      
-                         <input name="name" value = {this.state.name} type="text"  onChange = {this.handleChange} className="feedback-input" placeholder="Name" required/>   
-                         <input name="email" value = {this.state.email} type="text" onChange = {this.handleChange} className="feedback-input" placeholder="Email" required />
-                         <input name="phone" value = {this.state.phone} type="tel"  onChange = {this.handleChange} className="feedback-input" placeholder="Phone (Optional)" />
-                         <textarea name="message" value = {this.state.message} onChange = {this.handleChange} className="feedback-input" placeholder="Comment" required></textarea>
-                         <input type="submit" value="SEND"/>
-                      </form>
-                  </div>
-                  <div className = "contactButtons">
-                     <a target="_blank" rel="noopener noreferrer" className="fontAwesomeButton" href = "https://www.linkedin.com/in/maitra-patel-911060176/">
-                          <FaLinkedin size='2rem'></FaLinkedin> LinkedIn
-                     </a>
-                      <a target="_blank" rel="noopener noreferrer" className="fontAwesomeButton" href = "https://twitter.com/maaitraa">
-                          <FaTwitter size='2rem'></FaTwitter> Twitter
-                      </a>
-                      <a className="fontAwesomeButton" title = "maitraofficial@gmail.com" href = "mailto: maitraofficial@gmail.com">
-                          <IoMdMail size='2rem'></IoMdMail> Email
-                      </a>
-                  </div>
-              </div>
+            <div
+            className="container-fluid"
+            style={{
+                backgroundColor: "white",
+                borderTop: "8px solid black",
+                borderBottom: "8px solid black",
+                textAlign: "center",
+            }}
+            >
+                <div id="Contact">
+                <div className="overlay">
+                    <div className = "mainTitle" style={{color: "white"}}>
+                        CONTACT ME
+                    </div>
+                    <div className = "formContainer">
+                        <div style={this.msgStyle}>{this.state.msgStatus}</div>
+                        <form onSubmit={this.submitForm}>      
+                            <input name="name" value = {this.state.name} type="text"  onChange = {this.handleChange} className="feedback-input" placeholder="Name" required/>   
+                            <input name="email" value = {this.state.email} type="text" onChange = {this.handleChange} className="feedback-input" placeholder="Email" required />
+                            <input name="phone" value = {this.state.phone} type="tel"  onChange = {this.handleChange} className="feedback-input" placeholder="Phone (Optional)" />
+                            <textarea name="message" value = {this.state.message} onChange = {this.handleChange} className="feedback-input" placeholder="Comment" required></textarea>
+                            <input type="submit" value="SEND"/>
+                        </form>
+                    </div>
+                    <div className = "contactButtons">
+                        <a target="_blank" rel="noopener noreferrer" className="fontAwesomeButton" href = "https://www.linkedin.com/in/maitra-patel-911060176/">
+                            <FaLinkedin size='2rem'></FaLinkedin> LinkedIn
+                        </a>
+                        <a target="_blank" rel="noopener noreferrer" className="fontAwesomeButton" href = "https://twitter.com/maaitraa">
+                            <FaTwitter size='2rem'></FaTwitter> Twitter
+                        </a>
+                        <a className="fontAwesomeButton" title = "maitraofficial@gmail.com" href = "mailto: maitraofficial@gmail.com">
+                            <IoMdMail size='2rem'></IoMdMail> Email
+                        </a>
+                    </div>
+                </div>
+            </div>
           </div>
         );     
     }

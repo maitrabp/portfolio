@@ -180,14 +180,14 @@ class Projects extends React.Component {
               ></Project>
             </Slider>
             <div className="githubPlug">
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://github.com/maitrabp"
-              >
-                {" "}
-                Explore my Github {">>"}
-              </a>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://github.com/maitrabp"
+                >
+                  {" "}
+                  Explore my Github {">>"}
+                </a>
             </div>
           </div>
         </div>

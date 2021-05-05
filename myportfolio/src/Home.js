@@ -2,26 +2,13 @@ import React from "react";
 import Typical from "react-typical";
 
 function Home() {
-  let name = "Maitra_Patel";
+  let name = "Maitra Patel";
   return (
     <div id="Home">
       <div className="overlay">
         <div className="centered">
           <div className="homeText">
-            <Typical
-              loop={1}
-              wrapper="c"
-              steps={[
-                "<",
-                500,
-                "<" + name,
-                500,
-                "<" + name + "/",
-                500,
-                "<" + name + "/>",
-                1000,
-              ]}
-            />
+            {name}
           </div>
           <div className="subText">
             {" "}

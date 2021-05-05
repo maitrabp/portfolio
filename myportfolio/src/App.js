@@ -7,6 +7,7 @@ import Projects from "./Projects";
 import "bootstrap/dist/css/bootstrap.css";
 import FixedNav from "./FixedNav";
 import Copyright from "./Copyright";
+import Certifications from "./Certifications";
 
 const styles = {
   fontFamily: "'Quicksand', sans-serif",
@@ -14,7 +15,7 @@ const styles = {
   fontWeight: "bold",
 };
 
-const pages = ["Home", "About", "Projects", "Contact"];
+const pages = ["Home", "About", "Projects", "Contact", "Certifications"];
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
 
       <About />
       <Projects />
+      <Certifications/>
       <Contact />
       <Copyright />
     </div>
