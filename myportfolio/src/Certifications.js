@@ -50,11 +50,11 @@ export default function Certifications() {
                 >
                  <div className="innerSliderCertificateContainer">
                     <Slider {...settings}>
-                        <Certificate certificate="AWSCCP.png"/>
+                        <Certificate certificate="AWSCCP.PNG"/>
                         <Certificate certificate="AI_SupplyChainAnalytics.jpg"/>
-                        <Certificate certificate="MatlabSimscapeWebinar.png"/>
-                        <Certificate certificate="MatlabFeaturesSeminar.png"/>
-                        <Certificate certificate="MatlabOnRamp.png"/>
+                        <Certificate certificate="MatlabSimscapeWebinar.PNG"/>
+                        <Certificate certificate="MatlabFeaturesSeminar.PNG"/>
+                        <Certificate certificate="MatlabOnRamp.PNG"/>
                     </Slider>
                  </div>
             </div>
