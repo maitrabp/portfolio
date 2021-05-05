@@ -11,11 +11,11 @@ export default function About() {
         software intrigues me. I am capable of developing both front-end and
         back-end applications.<br></br>
         <br></br>
-        Currently I am pursuing a{" "}
-        <span id="highlighted">bachleor's in Software Engineering</span> at
+        I hold a {" "}
+        <span id="highlighted">bachleor's in Software Engineering</span> from
         University of Michigan, Dearborn. <br></br>
         <br></br>
-        <span id="highlighted">Expected Graduation: December, 2020.</span>
+        <span id="highlighted">Graduation: December, 2020.</span>
         <br></br>
         <br></br>
         <div style={{ textAlign: "left" }}>
@@ -29,6 +29,8 @@ export default function About() {
               <li id="highlighted">HTML/CSS</li>
               <li id="highlighted">Vanilla Javascript</li>
               <li id="highlighted">React.js</li>
+              <li id="highlighted">Angular</li>
+              <li id="highlighted">Node.js</li>
               <li id="highlighted">PHP</li>
               <li id="highlighted">
                 <u>Environments</u>: Windows, Linux
@@ -38,7 +40,7 @@ export default function About() {
           <div className="skillSection2">
             <ul style={{ listStyleType: "disc" }}>
               <li id="highlighted">Python(Django's REST framework)</li>
-              <li id="highlighted">Java </li>
+              <li id="highlighted">Java (Spring MVC, JSP, JDBC - Full Stack) </li>
               <li id="highlighted">
                 <u>Databases</u>: MySQL, Oracle, SQLServer, and Firebase.{" "}
               </li>
